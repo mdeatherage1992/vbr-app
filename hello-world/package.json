@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "arrow-keys-react": "^1.0.6",
+    "gatsby": "^2.0.33",
+    "gatsby-plugin-layout": "^1.0.9",
+    "gatsby-plugin-netlify": "^2.0.5",
+    "gatsby-plugin-netlify-cms": "^3.0.7",
+    "gatsby-plugin-nprogress": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.4",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-json": "^2.1.5",
+    "gatsby-transformer-remark": "^2.1.12",
+    "netlify-cms": "^2.2.0",
+    "react": "^16.5.1",
+    "react-background-video-player": "^1.1.5",
+    "react-dom": "^16.5.1",
+    "react-ga": "^2.5.3",
+    "react-helmet": "^5.2.0",
+    "react-player": "^1.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
+  }
+}

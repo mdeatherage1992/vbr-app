@@ -1,0 +1,220 @@
+.w3-container-header-mx {
+position: relative;
+top: 15px;
+right: 600px;
+float:right;
+min-height: 4em;
+border: rounded;
+background: linear-gradient(180deg, #002699 70%, #D4AF37 30%);
+opacity: .7;
+width: 550px;
+height: 160px;
+border-radius: 150px / 100px;
+}
+
+
+
+.w3-container-header-mx h1 {
+	position: relative;
+	left: 45px;
+	color: black;
+  opacity: 1;
+
+}
+
+.w3-container-header-mx:hover {
+	height: 520px;
+	width: 720px;
+	opacity: 1;
+	transition: transform 300ms ease-in-out;
+	transition: 600ms ease-in-out;
+	background: #EDE4D9;
+}
+
+#content:hover~#b{
+    display: block;
+}
+
+
+.mx {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+ width: 160px; /* Set the width of the sidebar */
+ position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+ z-index: 1; /* Stay on top */
+ top: 0; /* Stay at the top */
+ right: 0;
+ background: linear-gradient(180deg, #D4AF37 50%, #002699 50%);
+ opacity: 1;
+ overflow-x: hidden; /* Disable horizontal scroll */
+ padding-top: 20px;
+ font-family: 'Lobster', cursive;
+ color:black;
+}
+
+
+.sidenav-mx a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.w3-container-header-mx h4 {
+	color: black;
+	font-family: 'Lobster', cursive;
+	position: fixed;
+	top: 130px;
+	right: 900px;
+	font-size: .9em;
+}
+
+.w3-container-header-mx:hover p {
+	position: relative;
+ text-align:center;
+ opacity: 1;
+}
+.w3-container-header-mx p {
+ opacity: 0;
+}
+
+.w3-container-header-mx img {
+	position: fixed;
+	float:right;
+	height: 120px;
+	width: 200px;
+	top: 40px;
+	right: 630px;
+}
+
+.w3-container-content-mx:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	height: 150px;
+}
+
+.cooper-logo {
+	position:fixed;
+	top: 0;
+
+
+}
+
+.w3-container-content-mx {
+	position: fixed;
+	bottom: 550px;
+	right: 200px;
+	float:right;
+	width: 30%;
+	color: black;
+	border: rounded;
+	transition: transform .7s; /* Animation */
+	background-color: #EDE4D9;
+	opacity: .1;
+	width: 350px;
+	text-align: center;
+	height: 140px;
+	border-radius: 75px / 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.w3-container-content-mx-2 {
+	position: fixed;
+	bottom: 400px;
+	right: 200px;
+	transition: transform .7s;
+	width: 30%;
+	min-height: 4em;
+	color: black;
+	border: rounded;
+	background-color: #EDE4D9;
+	opacity: .3;
+	width: 350px;
+	text-align: center;
+	height: 120px;
+	border-radius: 75px / 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.w3-container-content-mx-3 {
+	position: fixed;
+	bottom: 10px;
+	right: 200px;
+	transition: transform .7s;
+	width: 30%;
+	min-height: 4em;
+	color: black;
+	background-color: #EDE4D9;
+	opacity: .3;
+	width: 350px;
+	text-align: center;
+	height: 110px;
+	border-radius: 75px / 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.w3-container-content-mx-4 {
+	position: fixed;
+	bottom: 200px;
+	right: 200px;
+	width: 30%;
+	transition: transform .7s;
+	color: black;
+	border: rounded;
+	background-color: #EDE4D9;
+	opacity: .3;
+	text-align: center;
+	width: 350px;
+	height: 120px;
+	border-radius: 75px / 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+// .w3-container-content-4 p {
+// position: relative;
+// top: 5px;
+// }
+
+
+.w3-container-content-mx-5 {
+	position: fixed;
+	bottom: 20px;
+	left: 300px;
+	width: 30%;
+	min-height: 4em;
+	color: black;
+	transition: transform .7s;
+	border: rounded;
+	background-color: #EDE4D9;
+	opacity: .3;
+	width: 350px;
+	text-align: center;
+	height: 140px;
+	border-radius: 75px / 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.w3-container-content-mx-2:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.w3-container-content-mx-3:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.w3-container-content-mx-4:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.maximus-logo {
+	border-radius: 90%;
+}
+
+.w3-container-content-mx-5:hover {
+	opacity: 1;
+	transform: scale(1.2);
+}
